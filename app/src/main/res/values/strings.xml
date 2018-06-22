@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Community Communicator</string>
+
+    <string name="pref_file">com.abc.preference_file</string>
+    <string name="pref_login_status">com.abc.preference_login_status</string>
+    <string name="pref_user_name">com.abc.preference_user_name</string>
+
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <string-array name="items">
+        <item>Item 1</item>
+        <item>Item 2</item>
+        <item>Item 3</item>
+        <item>Item 4</item>
+        <item>Item 5</item>
+    </string-array>
+</resources>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.communitycommunicator.SignUp">
+
+    <ImageView
+        android:id="@+id/logo1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/logo"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:id="@+id/txt_login1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/logo1"
+        android:text="Registration Form"
+        android:textSize="16sp"
+        android:textColor="#000000"/>
+
+    <EditText
+        android:id="@+id/et_name1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_below="@+id/txt_login1"
+        android:layout_marginTop="10dp"
+        android:hint="Name"
+        android:inputType="textPersonName"/>
+    <EditText
+        android:id="@+id/et_phone1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_below="@+id/et_name1"
+        android:layout_marginTop="10dp"
+        android:hint="Phone #"
+        android:inputType="phone"/>
+
+    <EditText
+        android:id="@+id/et_email1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_below="@+id/et_phone1"
+        android:layout_marginTop="20dp"
+        android:hint="Email"
+        android:inputType="textEmailAddress"/>
+
+    <EditText
+        android:id="@+id/et_pass1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_below="@+id/et_email1"
+        android:layout_marginTop="10dp"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <ImageButton
+        android:id="@+id/btn_register"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/send"
+        android:scaleType="fitCenter"
+        android:background="#00ffffff"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:layout_below="@+id/et_pass1"
+        android:layout_marginTop="10dp"/>
+
+</RelativeLayout>
